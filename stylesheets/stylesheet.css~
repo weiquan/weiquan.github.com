@@ -162,7 +162,7 @@ pre, code {
   width: 100%;
   color: #222;
   background-color: #fff;
-  margin: 0
+
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 14px;
 
@@ -271,7 +271,6 @@ Full-Width Styles
 }
 
 .inner {
-
   position: relative;
   max-width: 640px;
   padding: 20px 10px;
@@ -363,58 +362,33 @@ Full-Width Styles
 
 #main_content_wrap {
   background: #f2f2f2;
-  border-top: 1px solid green;
-  border-bottom: 1px solid green;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
 }
 
 #main_content {
-
   padding-top: 40px;
-  width:70%;
+  width:548px
   float:middle;
-  
-
 }
-#main_sidebar {
-
-	padding-top: 80px;
-  padding-left: 20px;
-  width:15%;
-  float: left;
-  text-align: left;
+#sidebar {
+	padding-top: 40px;
 
 
-  
+	height: 300px;
+
+  	width:200px
+	float: right;
+
 
 }
 
 #main-menu {
+	float:right	
 	font-size: 18px;
-	display::inline;
+	display::inline
 font-family: 'TelegramaRender',monospace;
 }
-#left{
-  /*background: #F1F1F1;*/
-  margin:5px 0px;
-  width: 222px;
-  display::inline;
-  float: left;
- }
-#mid{
-  /*background: #DFF7FF;*/
-  margin: 5px;
-  padding: 0px;
-  float: left;
-  display::inline;
-  width: 548px;
- }
-#right{
-  /*background: #FFEBCC;*/
-  margin-top:5px;
-  width: 200px;
-  display::inline;
-  float: right;
- }
 #footer_wrap {
   background: #212121;
 }
